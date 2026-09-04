@@ -48,8 +48,8 @@ const App = () => {
             Tu idea, nosotros la hacemos realidad 💖
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
-            Mini Librería y <br />
-            <span className="text-pink-400">Impresiones</span>
+           Mini Libreria e <br />
+            <span className="text-pink-400"> Impresiones</span>
           </h1>
           <p className="text-gray-600 text-lg max-w-md">
             Todo lo que necesitas en un solo lugar. Calidad, buen precio y atención personalizada para estudiantes y Publico en General.
