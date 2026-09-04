@@ -25,6 +25,7 @@ const App = () => {
         <div className="hidden lg:flex gap-8">
           <NavLink href="#inicio">Inicio</NavLink>
           <NavLink href="#servicios">Servicios</NavLink>
+          <NavLink href="#precios">Precios</NavLink>
           <NavLink href="#productos">Productos</NavLink>
           <NavLink href="#contacto">Contacto</NavLink>
         </div>
@@ -116,6 +117,81 @@ const App = () => {
           </div>
         </div>
       </section>
+
+      {/* Prices & Promotions Section */}
+      <section id="precios" className="py-16 md:py-24 bg-pink-50/30 border-y border-pink-50">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12 md:mb-16">
+            <span className="text-pink-400 text-sm font-medium tracking-wider uppercase">Nuestras Tarifas</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2">Precios</h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 md:gap-12 max-w-5xl mx-auto">
+            {/* Left Column: Promociones 
+             <div className="bg-white p-6 md:p-8 rounded-3xl border border-pink-100 shadow-sm">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <span></span> Promociones por Volumen
+              </h3>
+              <div className="space-y-4">
+                <div className="bg-pink-50/50 p-4 rounded-xl">
+                  <h4 className="font-bold text-pink-500 text-lg">+ de 20 páginas</h4>
+                  <p className="text-gray-600 mt-1">Impresión B/N: C$ 2.50 c/u</p>
+                  <p className="text-gray-600">Impresión Color: C$ 8.00 c/u</p>
+                </div>
+                <div className="bg-pink-50/50 p-4 rounded-xl">
+                  <h4 className="font-bold text-pink-500 text-lg">+ de 50 páginas</h4>
+                  <p className="text-gray-600 mt-1">Impresión B/N: C$ 2.00 c/u</p>
+                  <p className="text-gray-600">Impresión Color: C$ 7.00 c/u</p>
+                </div>
+                <div className="bg-pink-50/50 p-4 rounded-xl">
+                  <h4 className="font-bold text-pink-500 text-lg">+ de 100 páginas</h4>
+                  <p className="text-gray-600 mt-1">¡Súper descuento! Consúltanos por chat para darte el mejor precio.</p>
+                </div>
+              </div>
+            </div>
+             */}
+           
+            {/* Right Column: Precios Base */}
+            <div className="bg-white p-6 md:p-8 rounded-3xl border border-pink-100 shadow-sm">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <span>📋</span> Precios Base
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex justify-between items-center border-b border-gray-100 pb-3">
+                  <span className="text-gray-700">Impresión B/N Tamaño carta  </span>
+                  <span className="font-bold text-gray-800">C$ 4.00</span>
+                </li>
+                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">GI
+                  <span className="text-gray-700">Impresión B/N Tamaño Legal  </span>
+                  <span className="font-bold text-gray-800">C$ 5.00</span>
+                </li>
+                <li className="flex justify-between items-center border-b border-gray-100 pb-3">
+                  <span className="text-gray-700">Impresión Color tamaño carta</span>
+                  <span className="font-bold text-gray-800">C$ 8.00</span>
+                </li>
+                  <li className="flex justify-between items-center border-b border-gray-100 pb-3">
+                  <span className="text-gray-700">Impresión Color tamaño Legal</span>
+                  <span className="font-bold text-gray-800">C$ 10.00</span>
+                </li>
+                <li className="flex justify-between items-center border-b border-gray-100 pb-3">
+                  <span className="text-gray-700">Copia B/N tamaño carta</span>
+                  <span className="font-bold text-gray-800">C$ 4.00</span>
+                </li>
+                <li className="flex justify-between items-center border-b border-gray-100 pb-3">
+                  <span className="text-gray-700">Copia B/N tamaño Legal</span>
+                  <span className="font-bold text-gray-800">C$ 5</span>
+                </li>
+                <li className="flex justify-between items-center border-b border-gray-100 pb-3">
+                  <span className="text-gray-700">Escaneo de documentos</span>
+                  <span className="font-bold text-gray-800">C$ 5.00 / pág</span>
+                </li>
+              </ul>
+              <p className="text-xs text-gray-400 mt-6 text-center">* Precios de ejemplo, puedes modificarlos en el código.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Products Section */}
       <section id="productos" className="py-16 md:py-24 bg-pink-50/50">
