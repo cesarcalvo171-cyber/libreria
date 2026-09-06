@@ -153,15 +153,13 @@ const App = () => {
            
             {/* Right Column: Precios Base */}
             <div className="bg-white p-6 md:p-8 rounded-3xl border border-pink-100 shadow-sm">
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-                <span>📋</span> Precios Base
-              </h3>
+             
               <ul className="space-y-4">
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Impresión B/N Tamaño carta  </span>
                   <span className="font-bold text-gray-800">C$ 4.00</span>
                 </li>
-                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">GI
+                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Impresión B/N Tamaño Legal  </span>
                   <span className="font-bold text-gray-800">C$ 5.00</span>
                 </li>
@@ -175,18 +173,17 @@ const App = () => {
                 </li>
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Copia B/N tamaño carta</span>
-                  <span className="font-bold text-gray-800">C$ 4.00</span>
+                  <span className="font-bold text-gray-800">C$ 2.00</span>
                 </li>
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Copia B/N tamaño Legal</span>
-                  <span className="font-bold text-gray-800">C$ 5</span>
+                  <span className="font-bold text-gray-800">C$ 3.00</span>
                 </li>
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Escaneo de documentos</span>
-                  <span className="font-bold text-gray-800">C$ 5.00 / pág</span>
+                  <span className="font-bold text-gray-800">C$ 2.00 / pág</span>
                 </li>
               </ul>
-              <p className="text-xs text-gray-400 mt-6 text-center">* Precios de ejemplo, puedes modificarlos en el código.</p>
             </div>
           </div>
         </div>
