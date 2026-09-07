@@ -241,7 +241,7 @@ const App = () => {
               <div className="space-y-4 text-gray-700 text-sm md:text-base">
                 <p className="flex items-start gap-3">
                   <span className="mt-1 shrink-0">📍</span>
-                  <span>Oficinas Claro 1 cuadra al sur, 1/2 cuadra al oeste</span>
+                  <span>Oficinas Claro 1 cuadra al sur, Cuadra 1/2 cuadra al oeste</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <span className="shrink-0">📞</span>
