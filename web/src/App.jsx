@@ -176,10 +176,7 @@ const App = () => {
                   <span className="text-gray-700">Copia B/N tamaño carta</span>
                   <span className="font-bold text-gray-800">C$ 2.00</span>
                 </li>
-                <li className="flex justify-between items-center border-b border-gray-100 pb-3">
-                  <span className="text-gray-700">Copia B/N tamaño Legal</span>
-                  <span className="font-bold text-gray-800">C$ 3.00</span>
-                </li>
+               
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Escaneo de documentos</span>
                   <span className="font-bold text-gray-800">C$ 2.00 / pág</span>
@@ -242,7 +239,7 @@ const App = () => {
               <div className="space-y-4 text-gray-700 text-sm md:text-base">
                 <p className="flex items-start gap-3">
                   <span className="mt-1 shrink-0">📍</span>
-                  <span>Oficinas Claro 1 cuadra al sur, Cuadra 1/2 cuadra al oeste</span>
+                  <span>Oficinas Claro 1 cuadra al sur, 1 Cuadra 1/2 al oeste</span>
                 </p>
                 <p className="flex items-center gap-3">
                   <span className="shrink-0">📞</span>
