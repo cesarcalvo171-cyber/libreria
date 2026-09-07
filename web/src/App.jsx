@@ -21,6 +21,7 @@ const App = () => {
       <nav className="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center">
           <img src={logo} alt="Logo Mini Librería" className="h-10 md:h-12 w-auto object-contain" />
+          <p className="text-lg font-bold text-pink-400 ml-2 italic">Petals & paper</p>
         </div>
         <div className="hidden lg:flex gap-8">
           <NavLink href="#inicio">Inicio</NavLink>
