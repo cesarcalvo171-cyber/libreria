@@ -174,7 +174,7 @@ const App = () => {
                 </li>
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
                   <span className="text-gray-700">Copia B/N tamaño carta</span>
-                  <span className="font-bold text-gray-800">C$ 2.00</span>
+                  <span className="font-bold text-gray-800">C$ 4.00</span>
                 </li>
                
                 <li className="flex justify-between items-center border-b border-gray-100 pb-3">
